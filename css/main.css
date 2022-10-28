@@ -4,7 +4,7 @@ body {
 
 #main-visual {
   height: 100vh;
-  background-image: url("../images/main/bg_main_visual.jpg");
+  background-image: url("./images/main/bg_main_visual.jpg");
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,13 +29,13 @@ body {
   background-size: cover;
 }
 #main-visual .mask .visual01 {
-  background-image: url("../images/main/main_visual_img1.png");
+  background-image: url("./images/main/main_visual_img1.png");
 }
 #main-visual .mask .visual02 {
-  background-image: url("../images/main/main_visual_img2.png");
+  background-image: url("./images/main/main_visual_img2.png");
 }
 #main-visual .mask .visual03 {
-  background-image: url("../images/main/history_img2.jpg");
+  background-image: url("./images/main/history_img2.jpg");
 }
 #main-visual > .contents {
   padding: 100px 20px 0;
@@ -429,7 +429,7 @@ body {
 }
 
 #about {
-  background: url("../images/main/bg_main_about.jpg") no-repeat 50%;
+  background: url("./images/main/bg_main_about.jpg") no-repeat 50%;
   background-size: cover;
   color: #fff;
 }
@@ -491,7 +491,7 @@ body {
 }
 #about .organization ul li a:hover {
   background-color: rgb(255, 255, 255);
-  background-image: url("../images/main/bg_watermark.png");
+  background-image: url("./images/main/bg_watermark.png");
   background-repeat: no-repeat;
   color: #0467b3;
 }
@@ -574,7 +574,7 @@ body {
 
 #community {
   padding-bottom: 100px;
-  background: url("../images/main/bg_main_community.jpg") no-repeat 50%;
+  background: url("./images/main/bg_main_community.jpg") no-repeat 50%;
   background-size: cover;
   color: #fff;
 }
