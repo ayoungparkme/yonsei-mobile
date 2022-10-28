@@ -42,7 +42,10 @@ body {
   width: 100%;
   z-index: 2;
   color: #fff;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   box-sizing: border-box;
   position: relative;
   height: 100vh;
@@ -51,7 +54,10 @@ body {
   font-size: clamp(20px, 7.5vw, 32px);
   font-weight: 900;
   text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   pointer-events: none;
 }
 #main-visual > .contents .pagination {
@@ -620,7 +626,8 @@ body {
 #community .banner li img {
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 20px;
 }
 #community .link {
